@@ -1,0 +1,15 @@
+Flag : Kaliber{Fr3qu3ncy_M3ssag3_n1_Bosz!}
+
+Write-Up (WU):
+Buka File di Audacity:
+Impor file "encrypted_audio.wav" ke Audacity.
+Periksa Spektrum Frekuensi:
+Gunakan fitur Spectrogram View di Audacity untuk melihat pola tersembunyi di spektrum.
+Klik pada bagian gelombang audio dan pilih View as Spectrogram.
+Dekode Pesan:
+Jika ada teks tersembunyi, Anda akan melihat pesan dalam bentuk tulisan di spektrum.
+Salin teks tersebut sebagai flag.
+
+Hint:
+1. Audacity
+2. Jika ada pola aneh, itu bisa berupa spektrum pesan tersembunyi.

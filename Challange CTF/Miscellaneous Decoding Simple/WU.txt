@@ -1,0 +1,17 @@
+Flag : Kaliber{S3eK_Th3_Tru7h_C3T3EF}
+
+Hint 
+Kode ini adalah salah satu jenis encoding standar berbasis 64 karakter.
+Gunakan alat seperti CyberChef
+
+WU
+Lihat pola karakter yang terdiri dari huruf besar, kecil, angka, dan tanda “=” di akhir. Ini adalah ciri khas Base64 encoding.
+Decode Pesan:
+Gunakan situs seperti CyberChef atau Python dengan perintah:
+python
+Copy
+Edit
+import base64
+encoded_message = "U28gbG9uZyBhcyB5b3UgZG9uJ3Qgc3RvcCBkcmVhbWluZywgU2VlayB0aGUgZmxhZyBmb3IgdGhlIHRydXRoLg=="
+decoded_message = base64.b64decode(encoded_message).decode('utf-8')
+print(decoded_message)
